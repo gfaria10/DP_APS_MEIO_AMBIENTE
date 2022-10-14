@@ -1,0 +1,58 @@
+.banner-img{
+    background: rgba(0, 0, 0, 0.581) url(https://i.pinimg.com/originals/45/ed/89/45ed895c1b01c2b4d919da2bf5192e8a.jpg);
+    background-size: no-repeat;
+    background-position: center center;
+    height: 100%;
+    background-blend-mode: darken;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#txt_posts{
+    color: aliceblue;
+}
+
+#txt_home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    color: aliceblue;
+    font-weight: bold;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #ababab #ababab;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #232323;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #232323;
+    border-radius: 20px;
+    border: 3px solid #ababab;
+  }
